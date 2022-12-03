@@ -29,7 +29,6 @@ def rps2(p1, p2):
 
 res1 = int(0)
 res2 = int(0)
-reslist = []
 with open("input.txt") as f:
     lines = f.readlines()
     for line in lines:
