@@ -154,7 +154,6 @@ int main()
             if (!follow_instruction(line, piles) || !follow_instruction_ordered(line, ordered_piles))
                 return (1);
         }
-        //print piles
         for (std::string::size_type i = 0; i < piles.size(); i++)
         {
             std::cout << "pile " << i + 1 << " : " << piles[i] << std::endl;
