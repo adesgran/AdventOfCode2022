@@ -1,4 +1,4 @@
-NAME = dayfive
+NAME = daysix
 
 CC = c++
 C_FLAGS = -Wall -Wextra -Werror
